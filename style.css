@@ -1,0 +1,128 @@
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(30, 30, 30);
+	font-family: 'Patrick Hand', cursive;
+	font-size: 18px;
+}
+
+h2, a {
+	font-family: 'Alegreya', serif;
+}
+
+h1 {
+	color: rgb(29, 25, 43);
+	font-weight: 400;
+	font-family: 'Lora', serif;
+	letter-spacing: 2px;
+	font-size: 32px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+h2 {
+	color: rgb(100,100,100);
+	font-weight: 400;
+	letter-spacing: 5px;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*a:hover {
+	color: rgb(239, 199, 211);
+}*/
+
+img {
+	width: 300px;
+	height: auto;
+}
+
+div {
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-purple {
+	background-color: rgb(10, 20, 50);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-purple:hover {
+	background-color: rgb(98, 91, 113);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(239, 199, 211);
+}
+
+.list-inline i:hover {
+	color: rgb(98, 91, 113);
+}
+
+#list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#introduction {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 500px;
+	}
+
+	img {
+		width: 180px;
+		height: auto;
+	}
+}	
+
+@media (max-width: 576px) {
+	.container {
+		width: 300px;
+	}
+
+	img {
+		width: 120px;
+		height: auto;
+	}
+}
